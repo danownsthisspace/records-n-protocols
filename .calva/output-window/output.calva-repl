@@ -1,0 +1,76 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.8.3"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.26.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉records-n-protocols.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉records-n-protocols.core꞉> 
+2
+clj꞉records-n-protocols.core꞉> 
+#'records-n-protocols.core/jeep-wrangler
+clj꞉records-n-protocols.core꞉> 
+{:make "Jeep", :model "Wrangler"}
+clj꞉records-n-protocols.core꞉> 
+records_n_protocols.core.CarModel
+clj꞉records-n-protocols.core꞉> 
+#'records-n-protocols.core/fiat-500
+clj꞉records-n-protocols.core꞉> 
+{:make "Fiat", :model "500"}
+clj꞉records-n-protocols.core꞉> 
+{:make "Ford", :model "Focus"}
+clj꞉records-n-protocols.core꞉> 
+#'records-n-protocols.core/ford-focus
+clj꞉records-n-protocols.core꞉> 
+{:make "Ford", :model "Focus"}
+clj꞉records-n-protocols.core꞉> 
+{:make nil, :model nil}
+clj꞉records-n-protocols.core꞉> 
+"Jeep"
+clj꞉records-n-protocols.core꞉> 
+"Fiat"
+clj꞉records-n-protocols.core꞉> 
+clojure.lang.PersistentArrayMap
+clj꞉records-n-protocols.core꞉> 
+records_n_protocols.core.CarModel
+clj꞉records-n-protocols.core꞉> 
+Display
+clj꞉records-n-protocols.core꞉> 
+records_n_protocols.core.CarModel
+clj꞉records-n-protocols.core꞉> 
+#'records-n-protocols.core/fiat-500
+clj꞉records-n-protocols.core꞉> 
+"This is a Fiat 500"
+clj꞉records-n-protocols.core꞉> 
+"The Fiat 500 is Super awesome car"
+clj꞉records-n-protocols.core꞉> 
+"The Fiat 500 is a super awesome car"
+clj꞉records-n-protocols.core꞉> 
+records_n_protocols.core.Product
+clj꞉records-n-protocols.core꞉> 
+#'records-n-protocols.core/toaster
+clj꞉records-n-protocols.core꞉> 
+{:name "Toaster"}
+clj꞉records-n-protocols.core꞉> 
+nil
+clj꞉records-n-protocols.core꞉> 
+"This product is a Toaster"
+clj꞉records-n-protocols.core꞉> 
+"The Toaster is "
+clj꞉records-n-protocols.core꞉> 
+nil
+clj꞉records-n-protocols.core꞉> 
+"The Toaster is  flippin nice"
+clj꞉records-n-protocols.core꞉> 
